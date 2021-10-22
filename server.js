@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 
+//adding uuid to create a unique identifier for each note
+const { v4: uuidv4 } = require('uuid'); 
+
 const PORT = process.env.port || 3001;
 
 const app = express();
@@ -24,8 +27,11 @@ app.post('/notes', (req, res) => {
     const newNote = {
       title,
       text,
-    }
-});
+
+      note_id: uuidv4(),
+    };
+
+}); 
 
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
