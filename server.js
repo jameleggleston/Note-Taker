@@ -17,9 +17,14 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-app.get('/notes', (req, res) => {
+app.post('/notes', (req, res) => {
     console.log(req.body);
-  
+    const {title, text} = req.body;
+
+    const newNote = {
+      title,
+      text,
+    }
 });
 
 app.get('*', (req, res) =>
