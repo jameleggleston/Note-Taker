@@ -13,6 +13,9 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Npm Packages 
 ><b>Required to run this application:</b>
 * Express 
+* Fs
+* uuid
+* Util
  
 
 ## Usgae
@@ -35,4 +38,4 @@ Do you have questions? Contact me here:
 ### Application
 Here's the link for the deployed application hosted on [Heroku](https://vast-tundra-17769.herokuapp.com/). 
 
-[Back to top](#Workout-Tracker)
+[Back to top](#Note-Taker)
