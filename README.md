@@ -17,14 +17,14 @@ As a small business owner I want to be able to write and save notes, so that I c
  
 
 ## Usgae
-Once you load the deployed application, you can click the "Get Started" button to begin. Now you can create a new note, and veiw/delete a previous note. Once you've created your note title and description, you can click the "+" button to add your new note. You must create a note title and description when creating a new note.
+Once you load the deployed application, you can click the "Get Started" button to begin. Now you can create a new note, and veiw/delete a previous note. Once you've created your note title and description, you can click the "save icon" button to add your new note. You must create a note title and description when creating a new note in order for the save icon to appear.
 
 ## Test
 screen shot below:</b>
 ![caption](./images/screenshot1.jpg)
 
 example of how application works:</b>
-![caption]()
+![caption](./images/notetaker.gif)
 
  
 
