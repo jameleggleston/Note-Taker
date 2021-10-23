@@ -34,8 +34,8 @@ const deleteNote = (file, passedId) => {
             console.log('successfully deleted note');
           }
         });
-      }
+        }
     });
-  }
+}
 
 module.exports = readAndAppend, writeToFile, deleteNote;
