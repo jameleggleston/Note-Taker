@@ -38,4 +38,4 @@ const deleteNote = (file, passedId) => {
     });
   }
 
-module.exports = readAndAppend;
+module.exports = readAndAppend, writeToFile, deleteNote;
