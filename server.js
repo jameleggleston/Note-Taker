@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 //adding uuid to create a unique identifier for each note
 const { v4: uuidv4 } = require('uuid'); 
+const readAndAppend = require('./public/assets/helper/readAndAppend');
 const writeToFile = require('./public/assets/helper/readAndAppend');
 
 
@@ -32,7 +33,7 @@ app.post('/notes', (req, res) => {
       note_id: uuidv4(),
     };
 
-    writeToFile('./db/db.json', newNote);
+    readAndAppend(newNote, './db/db.json');
 }); 
 
 app.get('*', (req, res) =>
