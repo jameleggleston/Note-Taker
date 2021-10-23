@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 //adding uuid to create a unique identifier for each note
 const { v4: uuidv4 } = require('uuid'); 
-const readAndAppend = require('./public/assets/helper/readAndAppend');
+const {readAndAppend, readFile, deleteNote} = require('./public/assets/helper/readAndAppend');
 const database = './db/db.json';
 
 const PORT = process.env.port || 3001;
