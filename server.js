@@ -25,7 +25,7 @@ app.get('/api/notes', (req, res) => {
     readFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
 });
 
-app.post('/notes', (req, res) => {
+app.post('/api/notes', (req, res) => {
     console.log(req.body);
     const {title, text} = req.body;
 
