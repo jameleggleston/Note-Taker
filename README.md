@@ -19,7 +19,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
  
 
 ## Usgae
-
+Once you load the deployed application, you can click the "Get Started" button to begin. Now you can create a new note, and veiw/delete a previous note. Once you've created your note title and description, you can click the "+" button to add your new note. You must create a note title and description when creating a new note.
 
 ## Test
 screen shot below:</b>
