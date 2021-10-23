@@ -1,8 +1,6 @@
 # Note Tracker
 
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+As a small business owner I want to be able to write and save notes, so that I can organize my thoughts and keep track of tasks I need to complete.
 
 ## Table of Contents
 * [Npm Packages](#Npm-Packages)
@@ -23,7 +21,7 @@ Once you load the deployed application, you can click the "Get Started" button t
 
 ## Test
 screen shot below:</b>
-![caption]()
+![caption](./images/screenshot1.jpg)
 
 example of how application works:</b>
 ![caption]()
