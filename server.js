@@ -43,6 +43,12 @@ app.post('/notes', (req, res) => {
     }
 }); 
 
+app.delete("/api/notes/:id", (req, res) => {
+    const id = req.params.id;
+    deleteNote(database, id);
+    res.json({ id: id });
+});
+
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
